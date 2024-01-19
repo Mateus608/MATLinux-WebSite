@@ -117,14 +117,10 @@ header {
    margin: 0px;
 }
 
-.p-sobre,.p-sobre-txt {
+.p-sobre-txt {
    font-family: 'Ubuntu Mono', monospace;
    text-align: justify;
    font-size: 20px;
-}
-
-.p-sobre {
-   margin-bottom: 5px;
 }
 
 .detalhe-1 {
@@ -215,22 +211,13 @@ header {
 
 .p-sobre-txt {
    font-family: 'Ubuntu Mono', monospace;
-   text-align: left;
+   text-align: justify;
    font-size: 14px;
-}
-
-.p-sobre {
-   font-family: 'Ubuntu Mono', monospace;
-   font-size: 16px;
 }
 
 .detalhe-1 {
    font-family: 'Inter', sans-serif;
    font-size: 14px;
-}
-
-.p-sobre {
-   margin: 0px 0px 5px 0px;
 }
 
 .p-arq,.p-visitas { 
