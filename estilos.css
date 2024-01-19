@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+.titulo {
+    display:flex;
+    justify-content: center;
+}
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+    color: #D0D0D0;
+    font-size: 20px;
+}
+
+
+header {
+    margin-top: 30px;	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodape,.subtitulo {
+    color: #D0D0D0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+.section-1 {
+    margin-top:30px;
+    margin-bottom: 20px; 
+}
+
+.p-menu-title,.p-menu {
+    color: #0DD500;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 24px;
+}
+
+a {
+   color: #0DD500;
+   text-decoration: none;
+}
+.menu {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.img-menu {
+   width: 26px;
+   heigth: auto;
+}
+
+.menu-2, .menu-3 {
+   margin-top: 35px;
+}
+
+.p-menu-title {
+   margin-bottom: 10px;
+}
+
+.div-grade {
+   background-color: #D0D0D0;
+   padding: 0px 40px 40px 40px;
+   margin-left: 15%;
+   margin-right: 15%;
+   height: auto;
+}		
+
+.div-table-vim-1 {
+   border: 3px solid black;
+   padding: 20px;
+   margin: 0px 0px 30px 0px;
+}
+
+.div-table-vim-2 {
+   border: 3px solid black;
+   padding: 20px;
+   margin: 0px;
+}
+
+.img-linkedin {
+   width: 37px;
+   height: 37px;
+}
+
+.img-github {
+   width: 41px;
+   height: 41px;
+}
+
+.img-redes {
+   padding: 35px 0px 20px 0px; 
+   margin: 0px;
+}
+
+.p-sobre,.p-sobre-txt,.p-arq {
+   font-family: 'Ubuntu Mono', monospace;
+   text-align: justify;
+   font-size: 20px;
+}
+
+.p-arq-txt {
+   font-family: 'Ubuntu Mono', monospace;
+   text-align: left;
+   font-size: 20px;
+}
+
+.p-sobre,.p-arq {
+   margin-bottom: 5px;
+}
+
+.detalhe-1 {
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
+}
+
+footer {
+   margin: 30px 30px;
+   display: flex;
+   justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+    color: #D0D0D0;
+    font-size: 11px;
+}
+
+header {
+    margin-top: 30px;	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-titulo {
+    width: 300px;
+}
+
+.subtitulo {
+    font-size: 15px;
+}
+
+.p-menu-title,.p-menu {
+    color: #0DD500;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+}
+
+.menu-1,.menu-2,.menu-3 {
+    margin-top: -3px;
+}
+
+
+
+.menu {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   margin-left:10%;
+   
+}
+
+.p-menu-title {
+   margin-bottom: 10px;
+}
+
+.div-grade {
+   background-color: #D0D0D0;
+   padding: 0px 20px 20px 20px;
+   margin-left: 10%;
+   margin-right: 10%;
+   height: auto;
+}
+
+.div-table-vim-1 {
+   border: 3px solid black;
+   padding: 20px;
+   margin: 0px 0px 30px 0px;
+}
+
+.div-table-vim-2 {
+   border: 3px solid black;
+   padding: 20px;
+   margin: 0px;
+}
+
+.img-linkedin {
+   width: 24px;
+   height: 24px;
+}
+
+.img-github {
+   width: 28px;
+   height: 28px;
+}
+
+.img-redes {
+   padding: 15px 0px 10px 0px;
+   margin: 0px;	
+}
+
+.p-sobre-txt {
+   font-family: 'Ubuntu Mono', monospace;
+   text-align: justify;
+   font-size: 14px;
+}
+
+
+.p-arq-txt {
+   font-family: 'Ubuntu Mono', monospace;
+   text-align: left;
+   font-size: 14px;
+}
+
+.p-sobre,.p-arq {
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 16px;
+}
+
+.detalhe-1 {
+   font-family: 'Inter', sans-serif;
+   font-size: 14px;
+}
+
+.p-sobre,.p-arq {
+   margin: 0px 0px 5px 0px;
+}
+   
+}
