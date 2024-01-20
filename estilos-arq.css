@@ -101,13 +101,14 @@ header {
    padding: 30px 0px 20px 0px;  
 }
 
-.p-apresentacao {
-   font-family: 'Ubuntu Mono', monospace;
-   font-size: 20px;  
+.detalhe-1 {
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
 }
 
-#a-ctt {
-   color: black;
+.p-vim-insercao {
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 18px;
 }
 
 footer {
@@ -187,15 +188,22 @@ header {
    padding: 20px 0px 10px 0px;
 }
 
+.detalhe-1 {
+   font-family: 'Inter', sans-serif;
+   font-size: 14px;
+}
+
+.p-vim-insercao {
+   font-size: 13px;	
+}
+
 .p-voltar { 
    font-size: 12px;
 }
 
-.p-apresentacao {
-   font-size: 14px;
+.rodape {
+  font-size: 12px;
 }
 
-.rodape {
-   font-size: 12px;
-}   
+   
 }

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matlinux - contato</title>
-    <link rel="stylesheet" href="estilos-contato.css">
-    <link rel="icon" href="./pictures/icon-m.png" type="image/x-icon">
+    <title>Matlinux - livro de visitas</title>
+    <link rel="stylesheet" href="estilos-livro-visitas.css">
+    <link rel="icon" href="./pictures/icon-dir-green.png" type="image/x-icon">
 </head>
 <body>
 	
@@ -30,7 +30,7 @@
 	<div class="menu">	
             <nav class="menu-1">
 		  <p class="p-menu-title">root@matlinux:~$ pwd</p>
-		  <p class="p-menu"><img class="img-menu" src="./pictures/icon-dir-green.png" alt="icon"> contato</p>
+		  <p class="p-menu"><img class="img-menu" src="./pictures/icon-dir-green.png" alt="icon"> livro de visitas</p>
        	   </nav>
 	</div>
       </section>
@@ -45,10 +45,8 @@
 		   <p class="p-voltar"><a id="a-voltar" href="./index.html">Voltar</a></p>
 		</div>
 		<div class="div-table-vim-1">
-		<p class="p-apresentacao">
-		▶ olá, eu sou o Mateus, apaixonado pelo mundo Linux e programação, sempre em busca de contribuir para comunidade e projetos open source.</br>
-		▶ entre em contato pelo e-mail:</br>
-		<a id="a-ctt" href="malito:contatomateusmilane@gmail.com" target="_blank">contatomateusmilane@gmail.com</a>
+		<p class="p-livro-title">
+		Em breve você poderá assinar no livro de visitas (;
 		</p>		
 		
 	    </div>
