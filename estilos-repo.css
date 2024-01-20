@@ -44,13 +44,18 @@ header {
     margin-bottom: 20px; 
 }
 
-.p-menu {
+.p-menu-title,.p-menu {
     color: #0DD500;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 24px;
 }
 
-#a-voltar,#a-arq{
+.p-menu-title {
+   margin-bottom: 10px;
+}
+
+
+#a-arq{
    color: black;
 }
 
@@ -143,10 +148,14 @@ header {
     font-size: 15px;
 }
 
-.p-menu {
+.p-menu-title,.p-menu {
     color: #0DD500;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 16px;
+}
+
+.p-menu-title {
+   margin-bottom: 10px;
 }
 
 .menu {
@@ -189,6 +198,10 @@ header {
 }
 
 .p-voltar { 
+   font-size: 12px;
+}
+
+.rodape {
    font-size: 12px;
 }
 

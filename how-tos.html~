@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matlinux - blog</title>
-    <link rel="stylesheet" href="estilos-blog.css">
+    <title>Matlinux - projetos</title>
+    <link rel="stylesheet" href="estilos-proj.css">
     <link rel="icon" href="./pictures/icon-dir-green.png" type="image/x-icon">
 </head>
 <body>
@@ -13,11 +13,12 @@
 
 	<div class="titulo">
 	<div class="ascii-art"><strong>
-     __  ___ ___  ______ __
-    /  |/  //   |/_  __// /   (_)___  __  ___  __
-   / /|_/ // /| | / /  / /   / / __ \/ / / / |/_/
-  / /  / // ___ |/ /  / /___/ / / / / /_/ />  <
- /_/  /_//_/  |_/_/  /_____/_/_/ /_/\__,_/_/|_|
+   #    #   ##   ####### #      # #    # #    # #    #
+   ##  ##  #  #     #    #      # ##   # #    #  #  # 
+   # ## # #    #    #    #      # # #  # #    #   ##
+   #    # ######    #    #      # #  # # #    #   ##  
+   #    # #    #    #    #      # #   ##  #  #   #  #    
+   #    # #    #    #    ###### # #    #   ##   #    #
 	</strong></div>	
 	</div>
 	 
@@ -30,7 +31,7 @@
 	<div class="menu">	
             <nav class="menu-1">
 		  <p class="p-menu-title">root@matlinux:~$ pwd</p>
-		  <p class="p-menu"><img class="img-menu" src="./pictures/icon-dir-green.png" alt="icon"> blog</p>
+		  <p class="p-menu"><img class="img-menu" src="./pictures/icon-dir-green.png" alt="icon"> projetos</p>
        	   </nav>
 	</div>
       </section>
@@ -39,8 +40,8 @@
             <div class="div-grade">
 		<div class="mv-img-redes">
 		<div class="img-redes">
-		   <a href="https://github.com/Mateus608" target="_blank"><img class="img-github" src="./pictures/icon-github.png" alt="icon-github"></a>
-		   <a href="https://www.linkedin.com/in/mateus-oliveira-milane/" target="_blank"><img class="img-linkedin" src="./pictures/icon-linkedin.png" alt="icon-linkedin"></a>
+		   <a href="https://github.com/Mateus608"><img class="img-github" src="./pictures/icon-github.png" alt="icon-github"></a>
+		   <a href="https://www.linkedin.com/in/mateus-oliveira-milane/"><img class="img-linkedin" src="./pictures/icon-linkedin.png" alt="icon-linkedin"></a>
 		</div>
 		   <p class="p-voltar"><a id="a-voltar" href="./index.html">Voltar</a></p>
 		</div>

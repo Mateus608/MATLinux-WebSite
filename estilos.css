@@ -21,6 +21,17 @@ body {
     font-size: 20px;
 }
 
+.bt-pub {
+    white-space: pre;
+    color: black;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: -10px 0px -10px 0px;
+    font-size: 16px;
+}
+
+#a-bt-pub {
+    text-decoration: none;	
+}
 
 header {
     margin-top: 30px;	
@@ -53,10 +64,6 @@ header {
 #a-menu {
    color: #0DD500;
    text-decoration: none;
-}
-
-#a-arq,#a-visitas {
-   color: black;
 }
 
 .submenu {
@@ -119,7 +126,7 @@ header {
 
 .p-sobre-txt {
    font-family: 'Ubuntu Mono', monospace;
-   text-align: justify;
+   text-align: left;
    font-size: 20px;
 }
 
@@ -211,9 +218,8 @@ header {
 
 .p-sobre-txt {
    font-family: 'Ubuntu Mono', monospace;
-   text-align: justify;
+   text-align: left;
    font-size: 14px;
-   word-break: break-all;
 }
 
 .detalhe-1 {
@@ -225,5 +231,12 @@ header {
    font-size: 12px;
 }
 
+.bt-pub {
+    font-size: 12px; 
+}
+
+.rodape {
+   font-size: 12px;
+}   
    
 }
