@@ -67,7 +67,7 @@ header {
 
 .p-arq,.p-visitas {
    font-family: 'Ubuntu Mono', monospace;
-   font-size: 16px;
+   font-size: 14px;
 }
 
 .menu {

@@ -31,7 +31,7 @@
 	<div class="menu">	
             <nav class="menu-1">
 		 <p class="p-menu-title">root@matlinux:~$ ls</p>
-       		 <p class="p-menu"><a id="a-menu" href="./repo.html"><img class="img-menu" src="./pictures/icon-dir-green.png" alt="icon"> repositório</a></p>
+       		 <p class="p-menu"><a id="a-menu" href="#"><img class="img-menu" src="./pictures/icon-dir-green.png" alt="icon"> repositório</a></p>
        		 <p class="p-menu"><a id="a-menu" href="./blog.html"><img class="img-menu" src="./pictures/icon-dir-green.png" alt="icon"> blog</a></p>
             </nav>	
 	    <nav class="menu-2">

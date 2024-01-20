@@ -44,49 +44,30 @@ header {
     margin-bottom: 20px; 
 }
 
-.p-menu-title,.p-menu {
+.p-menu {
     color: #0DD500;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 24px;
 }
 
-#a-menu {
-   color: #0DD500;
-   text-decoration: none;
-}
-
-#a-arq,#a-visitas {
+#a-voltar,#a-arq{
    color: black;
 }
 
-.submenu {
-   display: flex;
-   flex-direction: column;
-   gap: 5px;
-}
-
-.p-arq,.p-visitas {
+.p-voltar{
    font-family: 'Ubuntu Mono', monospace;
    font-size: 16px;
 }
 
 .menu {
    display: flex;
-   justify-content: space-evenly;
-   align-items: center;
+   align-items: flex-start;
+   margin-left: 15%;
 }
 
 .img-menu {
    width: 26px;
    heigth: auto;
-}
-
-.menu-2, .menu-3 {
-   margin-top: 35px;
-}
-
-.p-menu-title {
-   margin-bottom: 10px;
 }
 
 .div-grade {
@@ -102,6 +83,17 @@ header {
    margin: 0px 0px 30px 0px;
 }
 
+.img-file {
+   width: 35px;
+   heigth: auto;
+   margin-right: 5px;
+}
+
+.p-arq {
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 20px;
+}
+
 .img-linkedin {
    width: 37px;
    height: 37px;
@@ -112,20 +104,12 @@ header {
    height: 41px;
 }
 
-.img-redes {
-   padding: 30px 0px 20px 0px; 
-   margin: 0px;
-}
-
-.p-sobre-txt {
-   font-family: 'Ubuntu Mono', monospace;
-   text-align: justify;
-   font-size: 20px;
-}
-
-.detalhe-1 {
-   font-family: 'Inter', sans-serif;
-   font-size: 20px;
+.mv-img-redes {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0px 20px 0px;  
 }
 
 footer {
@@ -159,14 +143,10 @@ header {
     font-size: 15px;
 }
 
-.p-menu-title,.p-menu {
+.p-menu {
     color: #0DD500;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 16px;
-}
-
-.menu-1,.menu-2,.menu-3 {
-    margin-top: -3px;
 }
 
 .menu {
@@ -175,10 +155,6 @@ header {
    flex-direction: column;
    margin-left:10%;
    
-}
-
-.p-menu-title {
-   margin-bottom: 10px;
 }
 
 .div-grade {
@@ -204,24 +180,15 @@ header {
    height: 28px;
 }
 
-.img-redes {
-   padding: 15px 0px 10px 0px;
-   margin: 0px;	
+.mv-img-redes {
+   padding: 20px 0px 10px 0px;
 }
 
-.p-sobre-txt {
-   font-family: 'Ubuntu Mono', monospace;
-   text-align: justify;
-   font-size: 14px;
-   word-break: break-all;
+.p-arq {
+   font-size: 16px;	
 }
 
-.detalhe-1 {
-   font-family: 'Inter', sans-serif;
-   font-size: 14px;
-}
-
-.p-arq,.p-visitas { 
+.p-voltar { 
    font-size: 12px;
 }
 
